@@ -1,0 +1,48 @@
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(30% - 40px);
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact {
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: calc(45% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        width: 100%;
+    }
+}
